@@ -1,2 +1,38 @@
-# ai-cyber-journey
-My learning journey in AI and cybersecurity
+# AI × Cybersecurity Learning Journey
+
+记录我从零学习人工智能、网络安全与 AI 安全的过程。
+
+## 学习目标
+
+- 掌握 Python、Linux、Git 和计算机网络基础
+- 理解机器学习与深度学习的核心概念
+- 学习 Web 安全、日志分析和威胁建模
+- 完成可以展示和复现的 AI 安全项目
+
+## 时间安排
+
+每周投入 10–15 小时。
+
+## 学习流程
+
+理解概念 → 亲手复现 → 记录实验 → 提交 GitHub → 每周复盘
+
+## 仓库结构
+
+- `notes/`：学习笔记与复盘
+- `labs/`：小型实验与练习
+- `projects/`：完整作品集项目
+- `paper-reproductions/`：论文阅读与复现
+
+## 当前进度
+
+- [x] 创建学习仓库
+- [x] 建立目录结构
+- [ ] 配置本地开发环境
+- [ ] 开始 Python 基础学习
+
+## 安全边界
+
+所有安全测试只在自己拥有或获得明确书面授权的系统上进行。
+优先使用本地隔离环境、合法靶场和公开测试数据。
+绝不上传密码、API Key、Cookie 或个人敏感数据。
