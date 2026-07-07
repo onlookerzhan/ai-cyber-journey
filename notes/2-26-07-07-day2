@@ -1,0 +1,55 @@
+# Day 2：配置本地开发环境
+
+日期：2026-07-07
+
+## 今天的目标
+
+安装并检查本地开发环境，为后续 Python、Linux、Git 和安全实验做准备。
+
+## 今天完成的事情
+
+- [x] 检查 Git 版本
+- [x] 检查 Python 版本
+- [x] 检查 VS Code 版本
+- [x] 安装 WSL 和 Ubuntu
+- [x] 在 Ubuntu 中检查系统、Python 和 Git 版本
+- [x] 运行 `sudo apt update` 检查 Ubuntu 软件包更新
+
+## 当前环境版本
+
+Windows 侧：
+
+- Git：2.45.2.windows.1
+- Python：3.12.7
+- VS Code：1.127.0
+
+Ubuntu 侧：
+
+- Ubuntu：Ubuntu 26.04 LTS
+- Linux 用户：nivenzhang
+- Python3：3.14.4
+- Git：2.53.0
+
+## 今天理解的概念
+
+- WSL：Windows Subsystem for Linux，可以在 Windows 上运行 Linux 环境
+- Ubuntu：一种常见的 Linux 发行版，适合学习开发和安全实验
+- Linux 用户名：只能用小写字母、数字、下划线或短横线，不能用空格和大写字母
+- sudo：临时以管理员权限执行命令
+- apt：Ubuntu 的软件安装和更新工具
+- apt update：刷新软件包清单
+- apt upgrade：安装可用的软件包更新
+- Git：版本控制工具，用来记录文件变化
+- Python：AI 和安全自动化常用编程语言
+- VS Code：代码编辑器，用来写代码、笔记和项目文件
+
+## 今天遇到的卡点
+
+- 直接运行 `wsl` 时，进入了 Docker Desktop 的 WSL 环境，而不是真正的 Ubuntu。
+- 后续应使用 `wsl -d Ubuntu` 或从开始菜单打开 Ubuntu。
+- WSL 提示 localhost 代理未镜像到 WSL，但网络可以正常访问 GitHub，因此暂时不影响学习。
+- `apt update` 提示有 59 个软件包可以升级，这是正常维护提示。
+
+## 明天的目标
+
+开始熟悉 Linux 基础命令：`pwd`、`ls`、`cd`、`mkdir`、`touch`、`cat`，并用这些命令创建一个简单的练习目录。
